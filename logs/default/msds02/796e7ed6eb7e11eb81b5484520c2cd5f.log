@@ -1,0 +1,118 @@
+2021-07-23 14:23:24 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: msds)
+2021-07-23 14:23:24 [scrapy.utils.log] INFO: Versions: lxml 4.6.1.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 21.2.0, Python 3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.1.1, Platform Windows-10-10.0.19041-SP0
+2021-07-23 14:23:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'msds', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'logs\\default\\msds02\\796e7ed6eb7e11eb81b5484520c2cd5f.log', 'NEWSPIDER_MODULE': 'msds.spiders', 'SPIDER_MODULES': ['msds.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1 QQBrowser/6.9.11079.201'}
+2021-07-23 14:23:24 [scrapy.extensions.telnet] INFO: Telnet Password: a32b1dcebf1c7e34
+2021-07-23 14:23:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-07-23 14:23:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-07-23 14:23:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-07-23 14:23:24 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-07-23 14:23:24 [scrapy.core.engine] INFO: Spider opened
+2021-07-23 14:23:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-07-23 14:23:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-07-23 14:23:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://china.guidechem.com/datacenter/msds/c/699.html> (referer: None)
+2021-07-23 14:23:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://china.guidechem.com/datacenter/msds/c/699.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:23:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://china.guidechem.com/datacenter/msds/c/701.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://china.guidechem.com/datacenter/msds/c/699.html>
+{'CAS': '<td align="left" class="pl10">\r\n'
+        '\t\t\t\t\t\t\t    \r\n'
+        '\t\t\t\t\t\t\t\t<a href="/486/detail.html">75-07-0</a>\r\n'
+        '\t\t\t\t\t\t\t\t\r\n'
+        '\t\t\t\t\t\t\t  \r\n'
+        '\t\t\t\t\t\t\t  \t\t\t</td>',
+ '中文名称': '乙醛',
+ '分子式': 'C',
+ '分子量': '44.05',
+ '别名': '醋醛',
+ '危险标记': '7(低闪点易燃液体)',
+ '国标编号': '31022',
+ '外观与性状': '无色液体，有强烈的刺激臭味',
+ '密度': '相对密度(水=1)0.78；',
+ '溶解性': '溶于水，可混溶于乙醇、乙醚',
+ '熔点': '-123.5℃ 沸点：20.8?',
+ '用途': '用于制造醋酸、醋酐和合成树脂',
+ '稳定性': '稳定',
+ '英文名称': 'acetaldehyde；acetic aldehyde',
+ '蒸汽压': '-39℃'}
+2021-07-23 14:23:59 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://china.guidechem.com/datacenter/msds/c/704.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://china.guidechem.com/datacenter/msds/c/701.html>
+{'CAS': '<td align="left" class="pl10">\r\n'
+        '\t\t\t\t\t\t\t    \r\n'
+        '\t\t\t\t\t\t\t\t<a href="/330/detail.html">64-17-5</a>\r\n'
+        '\t\t\t\t\t\t\t\t\r\n'
+        '\t\t\t\t\t\t\t  \r\n'
+        '\t\t\t\t\t\t\t  \t\t\t</td>',
+ '中文名称': '乙醇',
+ '分子式': 'C',
+ '分子量': '46.07',
+ '别名': '酒精',
+ '危险标记': '7(易燃液体)',
+ '国标编号': '32061',
+ '外观与性状': '无色液体，有酒香',
+ '密度': '相对密度(水=1)0.79；',
+ '溶解性': '与水混溶，可混溶于醚、氯仿、甘油等多数有机溶剂',
+ '熔点': '-114.1℃ 沸点：78.3?',
+ '用途': '用于制酒工业、有机合成、消毒以用作溶剂',
+ '稳定性': '稳定',
+ '英文名称': 'ethyl alcohol；ethanol',
+ '蒸汽压': '12℃'}
+2021-07-23 14:24:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://china.guidechem.com/datacenter/msds/c/704.html>: HTTP status code is not handled or not allowed
+2021-07-23 14:24:14 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://china.guidechem.com/datacenter/msds/c/700.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:24:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://china.guidechem.com/datacenter/msds/c/700.html>: HTTP status code is not handled or not allowed
+2021-07-23 14:24:24 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://china.guidechem.com/datacenter/msds/c/702.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:24:24 [scrapy.extensions.logstats] INFO: Crawled 6 pages (at 6 pages/min), scraped 2 items (at 2 items/min)
+2021-07-23 14:24:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://china.guidechem.com/datacenter/msds/c/702.html>: HTTP status code is not handled or not allowed
+2021-07-23 14:24:39 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/703.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:24:44 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/705.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:24:49 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/706.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:24:55 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/707.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/708.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:05 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/709.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:10 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/710.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/711.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:20 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/712.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:25 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/713.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:25 [scrapy.extensions.logstats] INFO: Crawled 6 pages (at 0 pages/min), scraped 2 items (at 0 items/min)
+2021-07-23 14:25:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://china.guidechem.com/datacenter/msds/c/703.html> (referer: https://china.guidechem.com/datacenter/msds/c/699.html)
+2021-07-23 14:25:35 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/714.html> (failed 1 times): 503 Service Unavailable
+2021-07-23 14:25:40 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/708.html> (failed 2 times): 503 Service Unavailable
+2021-07-23 14:25:40 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://china.guidechem.com/datacenter/msds/c/705.html> (failed 2 times): 503 Service Unavailable
+2021-07-23 14:25:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://china.guidechem.com/datacenter/msds/c/703.html>
+{'CAS': '<td align="left" class="pl10">\r\n'
+        '\t\t\t\t\t\t\t    \r\n'
+        '\t\t\t\t\t\t\t\t<a href="/14031/detail.html">6080-56-4</a>\r\n'
+        '\t\t\t\t\t\t\t\t\r\n'
+        '\t\t\t\t\t\t\t  \r\n'
+        '\t\t\t\t\t\t\t  \t\t\t</td>',
+ '中文名称': '乙酸铅',
+ '分子式': 'C',
+ '分子量': '379.33',
+ '别名': '醋酸铅',
+ '危险标记': '14(毒害品)',
+ '国标编号': '61853',
+ '外观与性状': '微有乙酸气味的无色透明晶体，工业品呈灰褐色的大块',
+ '密度': '相对密度(水=1)2.55',
+ '溶解性': '溶于水，微溶于醇，易溶于甘油',
+ '熔点': '75℃/失水',
+ '用途': '制取铅盐、铅颜料，也用于生物染色、有机合成和制药工业',
+ '稳定性': '稳定',
+ '英文名称': 'Lead acetate',
+ '蒸汽压': '无'}
